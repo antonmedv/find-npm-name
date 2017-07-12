@@ -1,0 +1,19 @@
+{
+  "name": "fnn",
+  "version": "1.0.0",
+  "description": "Find npm name",
+  "bin": {
+    "fnn": "./bin/fnn"
+  },
+  "repository": "antonmedv/find-npm-name",
+  "keywords": [
+    "npm",
+    "names"
+  ],
+  "author": "Anton Medvedev <anton@medv.io>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "latest",
+    "npm-name": "latest"
+  }
+}
