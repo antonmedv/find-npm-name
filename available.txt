@@ -2241,7 +2241,6 @@ fni
 fnj
 fnl
 fnm
-fnn
 fno
 fnr
 fnt
