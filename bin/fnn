@@ -28,7 +28,7 @@ void async function main() {
           } catch (err) {
             console.error(err.toString())
             if (/Invalid package name/.test(err)) { 
-              //break
+              break
             }
             console.error('Waiting for 60 seconds before retrying...'.red)
             await sleep(60 * 1000)
